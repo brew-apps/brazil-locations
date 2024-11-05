@@ -6,7 +6,7 @@ Package Laravel para adicionar tabelas de estados e cidades do Brasil ao banco d
 
 ## Instalação
 
-1. Adicione ao `composer.json`:
+1. Instale o pacote:
 
 ```bash
 composer require brew/brazil-locations
@@ -25,7 +25,7 @@ A package inclui os modelos Eloquent `State` e `City` para facilitar a interaç�
 **Listar todos os estados:**
 
 ```php
-use Brew\BrazilLocations\Models\State;
+use App\Models\State;
 
 $states = State::all();
 ```
@@ -39,7 +39,7 @@ $cities = $state->cities;
 
 **Obter o estado de uma cidade:**
 ```php
-use Brew\BrazilLocations\Models\City;
+use App\Models\City;
 
 $city = City::find(1);
 $state = $city->state;
