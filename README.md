@@ -43,26 +43,6 @@ $city = City::find(1);
 $state = $city->state;
 ```
 
-Publicar os Modelos (Opcional)
-Se desejar modificar ou estender os modelos, você pode publicá-los:
-
-```bash
-php artisan vendor:publish --tag=brazil-locations-models
-```
-Os modelos serão copiados para app/Models/Brew/BrazilLocations.
-
-## Testes
-
-Esta package utiliza o Pest PHP para testes.
-
-### Executar os Testes
-
-No diretório da package, execute:
-
-```bash
-composer test
-```
-
 ## Licença
 MIT
 
