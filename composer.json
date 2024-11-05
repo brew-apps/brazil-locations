@@ -2,6 +2,7 @@
     "name": "brew/brazil-locations",
     "description": "Package para adicionar estados e cidades do Brasil.",
     "minimum-stability": "dev",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Brew\\BrazilLocations\\": "src/",
