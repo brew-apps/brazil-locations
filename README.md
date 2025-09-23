@@ -2,8 +2,6 @@
 
 Package Laravel para adicionar tabelas de estados e cidades do Brasil ao banco de dados.
 
-**Atenção: apesar da package estar funcionando, há melhorias a se fazer, como por exemplo, verificar se o usuário já tem essas tabelas no banco antes de rodar a migration. Use com cautela**
-
 ## Instalação
 
 1. Instale o pacote:
